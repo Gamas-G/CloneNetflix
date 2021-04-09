@@ -2,7 +2,8 @@
 Ademas podemos declarar variables globales en ella
 */
 :root{
-    --rojo: #E50914; /*Variable global*/
+    /*Variables globales*/
+    --rojo: #E50914;
     --fondo: #141414;
 }
 
@@ -100,7 +101,7 @@ header nav a:last-child{
     margin-right: 1.25em;
 }
 
-/* Contenedor Titulo y Controoles */
+/* Contenedor Titulo y Controles */
 .contenedor-titulo-controles{
     display: flex;
     justify-content: space-between;
