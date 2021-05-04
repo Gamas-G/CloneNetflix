@@ -4,10 +4,12 @@ Ademas podemos declarar variables globales en ella
 :root{
     /*Variables globales*/
     --rojo: #E50914;
-    --fondo: #141414;
+    --fondo: #000;
 }
 
-*{
+*,
+*::before,
+*::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,6 +22,115 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+/* INDEX_PAGE */
+.header{
+    margin: 0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;align-items: center;
+}
+.header .logotipo{
+    font-size: 3.8rem;
+}
+.menu-controllers{
+    display: flex;
+    align-items: center;
+}
+.menu-controllers .idiomas{
+    margin-right: 20px;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 3px;
+}
+.idiomas i,
+.idiomas select{
+    color: #fff;
+}
+
+.idiomas select{
+    background-color: transparent;
+    border: none;
+}
+.menu-controllers .btn-sesion{
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+.data-email{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 75px 0;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 150px;
+}
+.data-email h1{
+    font-size: 4rem;
+    /* padding: 50px; */
+    max-width: 800px;
+}
+.data-email h2{
+    padding: 20px 0;
+}
+
+.detail-email{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+}
+.data-email h4{
+    padding: 30px;
+}
+.detail-email input{
+    width: 50%;
+    padding: 20px;
+}
+
+.btn-email{
+    padding: 0 30px;
+    font-size: 20px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seccion-contenedor{
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 530px;
+    height: 398px;
+}
+
+.invert{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.seccion{
+    border-bottom: 8px solid #222;
+    color: #fff;
+}
+
+.poster{
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../img/Background1.jpg);
+    background-size: cover;
+}
+
+
+/* HOME_PAGE */
 /*Header*/
 header{
     margin: 30px 0;
@@ -223,4 +334,3 @@ header nav a:last-child{
         display: none;
     }
 }
-
