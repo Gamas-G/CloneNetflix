@@ -3,6 +3,8 @@ Practica.
 
 NOTA: Codigo JS con comentarios
 
+![ScreenShot](https://raw.github.com/Gamas-G/CloneNetflix/master/img/Screen4.png)
+
 Diseño Web con HTML, CSS y JS. Diseño de Netflix
 ![ScreenShot](https://raw.github.com/Gamas-G/CloneNetflix/master/img/Screen.png)
 
